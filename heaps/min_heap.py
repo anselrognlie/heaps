@@ -3,6 +3,9 @@ class HeapNode:
     def initialize(self, key, value):
         self.key = key
         self.value = value
+        
+    def __str__(self):
+        return f"{self.value}"
 
 
 class MinHeap:
