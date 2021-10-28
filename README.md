@@ -24,9 +24,9 @@ The methods you will need to write are:
   - There is a private `heap_down` method you may want to implement to perform the remove method.
    - When writing heap_down you need to consider 3 things
     - You've got 3 possibilities
-     1 The current node has no children (you're done)
-     1 The current node has 1 child (that child is the smallest child)
-     1 The current node has 2 children, (you need to figure out the index of the smallest)
+     1. The current node has no children (you're done)
+     1. The current node has 1 child (that child is the smallest child)
+     1. The current node has 2 children, (you need to figure out the index of the smallest)
 - `empty?` - This method returns true if the heap is empty and false if it's not.
 
 ## HeapSort
